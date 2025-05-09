@@ -6,26 +6,29 @@ authors = [
     {name = "Oleh Borysevych",email = "borysevych.oleh87@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11,<3.12"
+requires-python = ">=3.11,<3.13"
 dynamic = [ "dependencies" ]
 
 [tool.poetry]
 package-mode = false
 
-[tool.poetry.requires-plugins]
-poetry-plugin-shell = ">=1.0.1"
-
 [tool.poetry.dependencies]
+python = ">=3.11,<3.13"
 python-dotenv = "1.0.1"
+elevenlabs = "*"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.black]
-line-length = 140
+line-length = 150
 
 [tool.isort]
 py_version = 311
-line_length = 140
+line_length = 150
+force_grid_wrap = 2
+multi_line_output = 3
+include_trailing_comma = true
+lines_after_imports = 2
 
