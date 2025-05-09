@@ -17,6 +17,8 @@ poetry-plugin-shell = ">=1.0.1"
 
 [tool.poetry.dependencies]
 python-dotenv = "1.0.1"
+fastapi = {extras = ["standard"], version = "^0.115.12"}
+uvicorn = {extras = ["standard"], version = "^0.34.2"}
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
