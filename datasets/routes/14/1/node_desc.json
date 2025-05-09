@@ -1,0 +1,19 @@
+{
+    "state_id": "14_1",
+    "state_name": "Shredder Screen",
+    "state_description": "This screen allows users to securely erase unwanted files and folders without leaving a trace. It provides options to ensure sensitive data is unrecoverable and to handle Finder errors.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "file management",
+        "security",
+        "data erasure"
+    ],
+    "enables": [
+        {
+            "name": "Select Files",
+            "description": "Opens a file selection dialog to choose files and folders for secure deletion.",
+            "action": "click_select_files_button"
+        }
+    ]
+}

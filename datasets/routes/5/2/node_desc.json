@@ -1,0 +1,19 @@
+{
+    "state_id": "5_2",
+    "state_name": "Malware Removal Screen",
+    "state_description": "This screen is part of the CleanMyMac X application, specifically focused on malware removal. It is currently performing a deep scan to detect malware on the system.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "Malware Removal",
+        "Deep Scan",
+        "Security"
+    ],
+    "enables": [
+        {
+            "name": "Stop Scan",
+            "description": "Stops the ongoing malware deep scan process.",
+            "action": "click_stop_button"
+        }
+    ]
+}

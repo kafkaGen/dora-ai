@@ -1,0 +1,19 @@
+{
+    "state_id": "2_1",
+    "state_name": "System Junk Cleanup",
+    "state_description": "This screen allows the user to clean system junk to optimize performance and reclaim disk space. It provides options to optimize the system by removing temporary files and resolving errors by getting rid of broken items.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "system cleanup",
+        "performance optimization",
+        "disk space"
+    ],
+    "enables": [
+        {
+            "name": "Scan",
+            "description": "Initiates the scanning process to identify system junk and potential optimizations.",
+            "action": "click_scan_button"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "scan_complete",
+            "description": "The malware deep scan completes automatically after scanning the system for threats.",
+            "trigger_type": "automatic",
+            "state_id": "5_2",
+            "state_id_2": "5_3"
+        }
+    ]
+}

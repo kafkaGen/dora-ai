@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "control_login_items",
+            "description": "Manage all of your login items to run only what you truly need.",
+            "trigger_type": "left_click",
+            "state_id": "7_1",
+            "state_id_2": "7_2"
+        }
+    ]
+}

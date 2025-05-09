@@ -1,0 +1,34 @@
+{
+    "state_id": "14_5",
+    "state_name": "Cleanup Complete",
+    "state_description": "This screen indicates that the cleanup process is complete. It shows the amount of space cleaned and provides options to share the results or explore additional cleanup options.",
+    "done": "Cleanup process completed, 8 KB cleaned.",
+    "screenshot_path": null,
+    "tags": [
+        "cleanup",
+        "results",
+        "optimization"
+    ],
+    "enables": [
+        {
+            "name": "Share Results",
+            "description": "Allows the user to share the cleanup results.",
+            "action": "click_share_results"
+        },
+        {
+            "name": "Try Get Rid of Duplicate Files",
+            "description": "Prompts the user to try removing duplicate files using Gemini to free up more space.",
+            "action": "click_try_duplicate_files"
+        },
+        {
+            "name": "View Log",
+            "description": "Allows the user to view the log of the cleanup process.",
+            "action": "click_view_log"
+        },
+        {
+            "name": "Start Over",
+            "description": "Allows the user to restart the cleanup process.",
+            "action": "click_start_over"
+        }
+    ]
+}

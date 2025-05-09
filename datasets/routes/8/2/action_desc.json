@@ -1,0 +1,25 @@
+{
+    "state_transitions": [
+        {
+            "action": "quit_mail",
+            "description": "Closes the Mail application to proceed with cleaning related items.",
+            "trigger_type": "left_click",
+            "state_id": "8_2",
+            "state_id_2": "8_3"
+        },
+        {
+            "action": "ignore_quit_prompt",
+            "description": "Ignores the prompt and continues without quitting the listed applications.",
+            "trigger_type": "left_click",
+            "state_id": "8_2",
+            "state_id_2": "8_3"
+        },
+        {
+            "action": "quit_all_applications",
+            "description": "Closes all listed applications to proceed with cleaning related items.",
+            "trigger_type": "left_click",
+            "state_id": "8_2",
+            "state_id_2": "8_3"
+        }
+    ]
+}

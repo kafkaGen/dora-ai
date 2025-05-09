@@ -1,0 +1,18 @@
+{
+    "state_transitions": [
+        {
+            "action": "task_free_up_ram_done",
+            "description": "Task to free up RAM is completed.",
+            "trigger_type": "system_event",
+            "state_id": "8_3",
+            "state_id_2": "8_4"
+        },
+        {
+            "action": "task_free_up_purgeable_space_running",
+            "description": "Task to free up purgeable space is currently running.",
+            "trigger_type": "system_event",
+            "state_id": "8_3",
+            "state_id_2": "8_4"
+        }
+    ]
+}

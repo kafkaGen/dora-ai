@@ -1,0 +1,18 @@
+{
+    "state_transitions": [
+        {
+            "action": "attempt_add_unsafe_files_to_shredder",
+            "description": "User attempts to add files to the Shredder that cannot be safely deleted, triggering a warning message.",
+            "trigger_type": "drag_drop",
+            "state_id": "14_2",
+            "state_id_2": "14_3"
+        },
+        {
+            "action": "select_unsafe_files_and_click_open",
+            "description": "User selects files that cannot be safely deleted and clicks 'Open', triggering a warning message.",
+            "trigger_type": "left_click",
+            "state_id": "14_2",
+            "state_id_2": "14_3"
+        }
+    ]
+}

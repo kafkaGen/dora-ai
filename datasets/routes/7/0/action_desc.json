@@ -1,0 +1,25 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_system_junk",
+            "description": "Navigate to the System Junk module for cleaning unnecessary files.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "7_1"
+        },
+        {
+            "action": "navigate_malware_removal",
+            "description": "Navigate to the Malware Removal module to check for threats.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "7_1"
+        },
+        {
+            "action": "navigate_uninstaller",
+            "description": "Navigate to the Uninstaller module to remove applications.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "7_1"
+        }
+    ]
+}

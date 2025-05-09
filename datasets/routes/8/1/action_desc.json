@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "run_maintenance_tasks",
+            "description": "Executes the selected maintenance tasks, prompting the user to quit certain applications to proceed.",
+            "trigger_type": "left_click",
+            "state_id": "8_1",
+            "state_id_2": "8_2"
+        }
+    ]
+}

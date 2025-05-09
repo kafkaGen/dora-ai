@@ -1,0 +1,54 @@
+{
+    "state_id": "8_3",
+    "state_name": "Maintenance Screen",
+    "state_description": "This screen is part of the CleanMyMac X application, specifically focused on performing maintenance tasks to optimize Mac performance. It shows the progress of various maintenance tasks being executed.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "maintenance",
+        "optimization",
+        "performance"
+    ],
+    "enables": [
+        {
+            "name": "Stop",
+            "description": "Stops the ongoing maintenance tasks.",
+            "action": "click_stop_button"
+        },
+        {
+            "name": "Free Up RAM",
+            "description": "Task to free up RAM is completed.",
+            "action": "task_free_up_ram_done"
+        },
+        {
+            "name": "Free Up Purgeable Space",
+            "description": "Task to free up purgeable space is currently running.",
+            "action": "task_free_up_purgeable_space_running"
+        },
+        {
+            "name": "Flush DNS Cache",
+            "description": "Option to flush DNS cache.",
+            "action": "click_flush_dns_cache"
+        },
+        {
+            "name": "Speed Up Mail",
+            "description": "Option to speed up mail.",
+            "action": "click_speed_up_mail"
+        },
+        {
+            "name": "Reindex Spotlight",
+            "description": "Option to reindex Spotlight.",
+            "action": "click_reindex_spotlight"
+        },
+        {
+            "name": "Repair Disk Permissions",
+            "description": "Option to repair disk permissions.",
+            "action": "click_repair_disk_permissions"
+        },
+        {
+            "name": "Time Machine Snapshot Thinning",
+            "description": "Option to thin Time Machine snapshots.",
+            "action": "click_time_machine_snapshot_thinning"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "state_id": "7_2",
+    "state_name": "Login Items Management",
+    "state_description": "This screen allows users to manage the list of applications that automatically open every time the user logs in. Users can enable or disable these login items to optimize system performance.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "Optimization",
+        "Login Items",
+        "System Performance"
+    ],
+    "enables": [
+        {
+            "name": "Toggle Login Item",
+            "description": "Enable or disable a specific login item to control whether it opens automatically at login.",
+            "action": "toggle_login_item"
+        },
+        {
+            "name": "Sort Login Items",
+            "description": "Sort the list of login items by name or status to organize the view.",
+            "action": "sort_login_items"
+        },
+        {
+            "name": "Navigate to Launch Agents",
+            "description": "Switch to the Launch Agents section to manage background processes.",
+            "action": "navigate_launch_agents"
+        },
+        {
+            "name": "Navigate to Heavy Consumers",
+            "description": "Switch to the Heavy Consumers section to identify and manage resource-intensive applications.",
+            "action": "navigate_heavy_consumers"
+        }
+    ]
+}

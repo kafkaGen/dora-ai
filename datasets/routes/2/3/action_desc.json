@@ -1,0 +1,39 @@
+{
+    "state_transitions": [
+        {
+            "action": "quit_code",
+            "description": "Quit the 'Code' application to proceed with cleaning its related items.",
+            "trigger_type": "left_click",
+            "state_id": "2_3",
+            "state_id_2": "2_4"
+        },
+        {
+            "action": "quit_claude",
+            "description": "Quit the 'Claude' application to proceed with cleaning its related items.",
+            "trigger_type": "left_click",
+            "state_id": "2_3",
+            "state_id_2": "2_4"
+        },
+        {
+            "action": "quit_safari",
+            "description": "Quit the 'Safari' application to proceed with cleaning its related items.",
+            "trigger_type": "left_click",
+            "state_id": "2_3",
+            "state_id_2": "2_4"
+        },
+        {
+            "action": "ignore_quit_prompt",
+            "description": "Ignore the prompt and proceed without quitting the applications.",
+            "trigger_type": "left_click",
+            "state_id": "2_3",
+            "state_id_2": "2_4"
+        },
+        {
+            "action": "quit_all",
+            "description": "Quit all listed applications to proceed with cleaning their related items.",
+            "trigger_type": "left_click",
+            "state_id": "2_3",
+            "state_id_2": "2_4"
+        }
+    ]
+}

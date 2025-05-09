@@ -1,0 +1,35 @@
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_plugins:
+
+networks:
+  frontend_network:
+    driver: bridge
+  backend_network:
+    driver: bridge
+
+services:
+
+  neo4j:
+    image: neo4j:5.26.2-ubi9
+    container_name: neo4j
+    restart: unless-stopped
+    networks:
+      - backend_network
+    ports:
+      - ${NEO4J_GUI_PORT}:${NEO4J_GUI_PORT}
+      - ${NEO4J_PORT}:${NEO4J_PORT}
+    environment:
+      - NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWORD}
+      - NEO4J_PLUGINS='["apoc"]'
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_apoc_import_file_use__neo4j__config=true
+      - NEO4J_PLUGINS=["apoc", "graph-data-science"]
+      - NEO4J_dbms_security_procedures_unrestricted="apoc.*"
+    volumes:
+      - ../help/neo4j/import:/var/lib/neo4j/import
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_plugins:/plugins

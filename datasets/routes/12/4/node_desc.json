@@ -1,0 +1,24 @@
+{
+    "state_id": "12_4",
+    "state_name": "File Removal Confirmation",
+    "state_description": "This screen confirms the user's intention to permanently remove selected files from their Mac. It provides a warning that the files will be gone forever after removal and lists the files selected for deletion.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "file removal",
+        "confirmation",
+        "cleanup"
+    ],
+    "enables": [
+        {
+            "name": "Remove",
+            "description": "Permanently deletes the selected files from the system.",
+            "action": "click_remove_button"
+        },
+        {
+            "name": "Cancel",
+            "description": "Cancels the file removal process and returns to the previous screen.",
+            "action": "click_cancel_button"
+        }
+    ]
+}

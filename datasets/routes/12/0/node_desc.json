@@ -1,0 +1,25 @@
+{
+    "state_id": "1_1",
+    "state_name": "Welcome Screen",
+    "state_description": "Initial screen of CleanMyMac X where users can start a Smart Scan to clean, optimize, and protect their Mac.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "cleaning",
+        "optimization",
+        "malware protection",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Start Smart Scan",
+            "description": "Initiates a comprehensive scan of the Mac to clean system junk, detect malware, and optimize performance.",
+            "action": "click_start_smart_scan"
+        },
+        {
+            "name": "Access Assistant",
+            "description": "Opens the Assistant for help and guidance within the app.",
+            "action": "click_access_assistant"
+        }
+    ]
+}

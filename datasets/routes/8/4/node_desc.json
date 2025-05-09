@@ -1,0 +1,29 @@
+{
+    "state_id": "8_4",
+    "state_name": "Maintenance Completion",
+    "state_description": "This screen indicates that the maintenance tasks have been completed successfully. It provides an option to share the results and suggests an additional action to remove duplicate files.",
+    "done": "6 maintenance tasks completed",
+    "screenshot_path": null,
+    "tags": [
+        "maintenance",
+        "completion",
+        "system optimization"
+    ],
+    "enables": [
+        {
+            "name": "Share Results",
+            "description": "Allows the user to share the results of the completed maintenance tasks.",
+            "action": "click_share_results"
+        },
+        {
+            "name": "View Log",
+            "description": "Opens the log to view details of the maintenance tasks performed.",
+            "action": "click_view_log"
+        },
+        {
+            "name": "Try Now - Get Rid of Duplicate Files",
+            "description": "Initiates the process to delete duplicate files using Gemini to free up space.",
+            "action": "click_try_now_duplicate_files"
+        }
+    ]
+}

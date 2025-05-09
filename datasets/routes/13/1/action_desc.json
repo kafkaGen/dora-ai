@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_scan_button",
+            "description": "Initiates the scanning process to find large and old files on the selected drive.",
+            "trigger_type": "left_click",
+            "state_id": "13_1",
+            "state_id_2": "13_2"
+        }
+    ]
+}

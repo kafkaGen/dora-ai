@@ -1,0 +1,29 @@
+{
+    "state_id": "2_2",
+    "state_name": "System Junk Scan Completed",
+    "state_description": "This screen shows the results of a completed system junk scan, displaying the amount of space that can be freed up by removing user cache files and other system junk.",
+    "done": "Scan completed, 1.91 GB identified for cleaning",
+    "screenshot_path": null,
+    "tags": [
+        "system junk",
+        "scan results",
+        "cleaning"
+    ],
+    "enables": [
+        {
+            "name": "Review Details",
+            "description": "View detailed information about the files identified during the scan.",
+            "action": "click_review_details"
+        },
+        {
+            "name": "Clean",
+            "description": "Initiate the cleaning process to remove the identified system junk files.",
+            "action": "click_clean"
+        },
+        {
+            "name": "Start Over",
+            "description": "Restart the system junk scan process.",
+            "action": "click_start_over"
+        }
+    ]
+}

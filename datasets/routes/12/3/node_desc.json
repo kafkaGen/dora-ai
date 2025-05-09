@@ -1,0 +1,29 @@
+{
+    "state_id": "12_3",
+    "state_name": "Space Lens View",
+    "state_description": "This screen allows users to visualize and manage disk space usage on their Mac. Users can see a graphical representation of files and applications, select items to review or remove, and navigate through different directories.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "disk management",
+        "space visualization",
+        "file management"
+    ],
+    "enables": [
+        {
+            "name": "Remove",
+            "description": "Remove the selected items to free up disk space.",
+            "action": "click_remove_button"
+        },
+        {
+            "name": "Review Selected",
+            "description": "Review the details of the selected items before taking any action.",
+            "action": "click_review_selected_button"
+        },
+        {
+            "name": "Navigate Directories",
+            "description": "Navigate through different directories to explore disk usage.",
+            "action": "navigate_directories"
+        }
+    ]
+}

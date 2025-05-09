@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_start_over",
+            "description": "Return to the initial state of the Shredder tool to select different files or folders.",
+            "trigger_type": "left_click",
+            "state_id": "14_4",
+            "state_id_2": "14_5"
+        }
+    ]
+}

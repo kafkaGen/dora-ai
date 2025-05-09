@@ -1,0 +1,18 @@
+{
+    "state_transitions": [
+        {
+            "action": "stop_scan",
+            "description": "Stops the ongoing Smart Scan process.",
+            "trigger_type": "left_click",
+            "state_id": "1_5",
+            "state_id_2": "1_6"
+        },
+        {
+            "action": "view_scan_details",
+            "description": "Allows the user to view detailed results of the scan for each category.",
+            "trigger_type": "left_click",
+            "state_id": "1_5",
+            "state_id_2": "1_6"
+        }
+    ]
+}

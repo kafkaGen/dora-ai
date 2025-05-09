@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_ok_button",
+            "description": "Closes the warning dialog and returns to the previous screen without adding the files to the Shredder.",
+            "trigger_type": "left_click",
+            "state_id": "14_3",
+            "state_id_2": "14_4"
+        }
+    ]
+}

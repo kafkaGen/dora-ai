@@ -1,0 +1,29 @@
+{
+    "state_id": "4_2",
+    "state_name": "Trash Bins Scan Completed",
+    "state_description": "This screen displays the results of a completed scan of the Trash Bins, showing the amount of space that can be freed by emptying the trash. Users can review details of the files found or proceed to empty the trash.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "system cleaning",
+        "trash bins",
+        "scan results"
+    ],
+    "enables": [
+        {
+            "name": "Review Details",
+            "description": "View more information about the files found in the trash bins.",
+            "action": "click_review_details"
+        },
+        {
+            "name": "Empty Trash",
+            "description": "Proceed to empty the trash bins and free up space.",
+            "action": "click_empty_trash"
+        },
+        {
+            "name": "Start Over",
+            "description": "Restart the scan process from the beginning.",
+            "action": "click_start_over"
+        }
+    ]
+}

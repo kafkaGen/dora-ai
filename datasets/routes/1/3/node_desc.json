@@ -1,0 +1,24 @@
+{
+    "state_id": "1_3",
+    "state_name": "Smart Scan Results",
+    "state_description": "This screen displays the results of a Smart Scan, showing the amount of junk to clean, potential threats, and performance tasks to optimize. Users can review details or run the cleanup and optimization processes.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "system cleaning",
+        "performance optimization",
+        "malware protection"
+    ],
+    "enables": [
+        {
+            "name": "Review Details",
+            "description": "Opens a detailed view of the junk files found during the scan.",
+            "action": "click_review_details"
+        },
+        {
+            "name": "Run",
+            "description": "Executes the cleanup and optimization tasks identified by the Smart Scan.",
+            "action": "click_run"
+        }
+    ]
+}

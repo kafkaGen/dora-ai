@@ -1,0 +1,25 @@
+{
+    "state_id": "5_1",
+    "state_name": "Malware Removal",
+    "state_description": "This screen allows users to perform an in-depth checkup of their Mac for vulnerabilities and malware. It provides options to remove malicious files, protect the Mac, and perform a deep scan tailored to user preferences.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "malware",
+        "security",
+        "scan",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Configure",
+            "description": "Opens settings to tailor the Moonlock Engine's scanning performance and capabilities.",
+            "action": "click_configure_button"
+        },
+        {
+            "name": "Scan",
+            "description": "Initiates a malware scan to detect and remove threats from the Mac.",
+            "action": "click_scan_button"
+        }
+    ]
+}

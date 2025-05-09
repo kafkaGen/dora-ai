@@ -1,0 +1,19 @@
+{
+    "state_id": "4_1",
+    "state_name": "Trash Bins Screen",
+    "state_description": "This screen allows users to empty all available Trash Bins on their Mac, including Mail and photo library trash. It provides options to ensure all bins are emptied at once and avoids Finder errors.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "Trash Bins",
+        "Cleanup",
+        "Mac Optimization"
+    ],
+    "enables": [
+        {
+            "name": "Scan",
+            "description": "Initiates the process to scan and empty all Trash Bins on the Mac.",
+            "action": "click_scan_button"
+        }
+    ]
+}

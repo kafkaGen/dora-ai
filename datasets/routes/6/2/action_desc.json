@@ -1,0 +1,25 @@
+{
+    "state_transitions": [
+        {
+            "action": "quit_safari",
+            "description": "Quits the Safari application to proceed with cleaning its related items.",
+            "trigger_type": "left_click",
+            "state_id": "6_2",
+            "state_id_2": "6_3"
+        },
+        {
+            "action": "ignore_quit_prompt",
+            "description": "Ignores the prompt and does not quit any applications, potentially skipping the cleaning of related items.",
+            "trigger_type": "left_click",
+            "state_id": "6_2",
+            "state_id_2": "6_3"
+        },
+        {
+            "action": "quit_all",
+            "description": "Quits all listed applications to proceed with cleaning all related items.",
+            "trigger_type": "left_click",
+            "state_id": "6_2",
+            "state_id_2": "6_3"
+        }
+    ]
+}

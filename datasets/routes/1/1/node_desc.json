@@ -1,0 +1,85 @@
+{
+    "state_id": "1_1",
+    "state_name": "Welcome Screen",
+    "state_description": "The initial screen of CleanMyMac X, offering a Smart Scan to clean, optimize, and protect the Mac.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "cleaning",
+        "optimization",
+        "malware protection",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Smart Scan",
+            "description": "Initiates a comprehensive scan of the Mac to clean system junk, detect malware, and optimize performance.",
+            "action": "click_smart_scan_button"
+        },
+        {
+            "name": "System Junk",
+            "description": "Navigates to the System Junk cleaning module to remove unnecessary files.",
+            "action": "navigate_system_junk"
+        },
+        {
+            "name": "Mail Attachments",
+            "description": "Navigates to the Mail Attachments module to clear old mail attachments.",
+            "action": "navigate_mail_attachments"
+        },
+        {
+            "name": "Trash Bins",
+            "description": "Navigates to the Trash Bins module to empty trash bins.",
+            "action": "navigate_trash_bins"
+        },
+        {
+            "name": "Malware Removal",
+            "description": "Navigates to the Malware Removal module to scan and remove malware.",
+            "action": "navigate_malware_removal"
+        },
+        {
+            "name": "Privacy",
+            "description": "Navigates to the Privacy module to manage privacy settings and clear traces of online activity.",
+            "action": "navigate_privacy"
+        },
+        {
+            "name": "Optimization",
+            "description": "Navigates to the Optimization module to improve Mac performance.",
+            "action": "navigate_optimization"
+        },
+        {
+            "name": "Maintenance",
+            "description": "Navigates to the Maintenance module for routine system maintenance tasks.",
+            "action": "navigate_maintenance"
+        },
+        {
+            "name": "Uninstaller",
+            "description": "Navigates to the Uninstaller module to remove applications completely.",
+            "action": "navigate_uninstaller"
+        },
+        {
+            "name": "Updater",
+            "description": "Navigates to the Updater module to update installed applications.",
+            "action": "navigate_updater"
+        },
+        {
+            "name": "Extensions",
+            "description": "Navigates to the Extensions module to manage system extensions.",
+            "action": "navigate_extensions"
+        },
+        {
+            "name": "Space Lens",
+            "description": "Navigates to the Space Lens module to visualize disk space usage.",
+            "action": "navigate_space_lens"
+        },
+        {
+            "name": "Large & Old Files",
+            "description": "Navigates to the Large & Old Files module to find and remove large and old files.",
+            "action": "navigate_large_old_files"
+        },
+        {
+            "name": "Shredder",
+            "description": "Navigates to the Shredder module to securely delete files.",
+            "action": "navigate_shredder"
+        }
+    ]
+}

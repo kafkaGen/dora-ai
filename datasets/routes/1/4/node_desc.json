@@ -1,0 +1,39 @@
+{
+    "state_id": "1_4",
+    "state_name": "Application Quit Prompt",
+    "state_description": "This screen prompts the user to quit certain applications to allow CleanMyMac X to clean related items effectively. It lists applications that should be quit and provides options to quit them individually or all at once.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "application management",
+        "system cleaning",
+        "user prompt"
+    ],
+    "enables": [
+        {
+            "name": "Quit Claude",
+            "description": "Quits the application named Claude to proceed with cleaning.",
+            "action": "quit_claude"
+        },
+        {
+            "name": "Quit Code",
+            "description": "Quits the application named Code to proceed with cleaning.",
+            "action": "quit_code"
+        },
+        {
+            "name": "Quit Safari",
+            "description": "Quits the application named Safari to proceed with cleaning.",
+            "action": "quit_safari"
+        },
+        {
+            "name": "Ignore",
+            "description": "Ignores the prompt and continues without quitting any applications.",
+            "action": "ignore_quit_prompt"
+        },
+        {
+            "name": "Quit All",
+            "description": "Quits all listed applications to proceed with cleaning.",
+            "action": "quit_all"
+        }
+    ]
+}

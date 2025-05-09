@@ -1,0 +1,24 @@
+{
+    "state_id": "5_3",
+    "state_name": "Malware Removal - Scan Completed",
+    "state_description": "This screen shows the results of a malware scan, indicating that the scan is complete and no threats were found. It provides details about the scan, including the number of items scanned, the duration, and the protection status.",
+    "done": "Malware scan completed with no threats found",
+    "screenshot_path": null,
+    "tags": [
+        "Malware Removal",
+        "Scan Results",
+        "Security"
+    ],
+    "enables": [
+        {
+            "name": "Start Over",
+            "description": "Restart the malware scan process.",
+            "action": "click_start_over"
+        },
+        {
+            "name": "Learn More About Moonlock",
+            "description": "Open a webpage to learn more about the Moonlock Engine.",
+            "action": "click_learn_more_about_moonlock"
+        }
+    ]
+}

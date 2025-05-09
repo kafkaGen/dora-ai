@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_run",
+            "description": "Executes the cleanup and optimization tasks identified by the Smart Scan, which may require quitting certain applications.",
+            "trigger_type": "left_click",
+            "state_id": "1_3",
+            "state_id_2": "1_4"
+        }
+    ]
+}

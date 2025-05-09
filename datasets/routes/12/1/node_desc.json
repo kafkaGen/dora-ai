@@ -1,0 +1,20 @@
+{
+    "state_id": "12_1",
+    "state_name": "Space Lens",
+    "state_description": "The Space Lens feature provides a visual size comparison of folders and files to help users quickly identify and manage disk space usage. It offers an instant size overview and aids in quick decision-making for file removal.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "disk management",
+        "file size",
+        "visualization",
+        "cleanup"
+    ],
+    "enables": [
+        {
+            "name": "Scan",
+            "description": "Initiates the scanning process to analyze disk space usage and provide a visual representation of file sizes.",
+            "action": "click_scan_button"
+        }
+    ]
+}

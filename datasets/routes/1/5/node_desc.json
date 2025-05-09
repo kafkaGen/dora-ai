@@ -1,0 +1,25 @@
+{
+    "state_id": "1_5",
+    "state_name": "Smart Scan Screen",
+    "state_description": "This screen is part of the CleanMyMac X application, displaying the Smart Scan feature in progress. It shows the optimization process, including cleaning system junk, emptying trash bins, flushing DNS cache, and freeing up RAM.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "system optimization",
+        "cleaning",
+        "performance",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Stop Scan",
+            "description": "Stops the ongoing Smart Scan process.",
+            "action": "stop_scan"
+        },
+        {
+            "name": "View Details",
+            "description": "Allows the user to view detailed results of the scan for each category.",
+            "action": "view_scan_details"
+        }
+    ]
+}

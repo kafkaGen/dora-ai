@@ -1,0 +1,55 @@
+{
+    "state_id": "8_1",
+    "state_name": "Maintenance Screen",
+    "state_description": "This screen allows users to perform various maintenance tasks to optimize their Mac's performance. Users can select tasks like freeing up RAM, purging space, flushing DNS cache, speeding up mail, reindexing Spotlight, repairing disk permissions, and thinning Time Machine snapshots.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "maintenance",
+        "optimization",
+        "performance",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Free Up RAM",
+            "description": "Frees up unused memory to improve system performance.",
+            "action": "free_up_ram"
+        },
+        {
+            "name": "Free Up Purgeable Space",
+            "description": "Reclaims space that can be purged by the system.",
+            "action": "free_up_purgeable_space"
+        },
+        {
+            "name": "Flush DNS Cache",
+            "description": "Clears the DNS cache to resolve network issues.",
+            "action": "flush_dns_cache"
+        },
+        {
+            "name": "Speed Up Mail",
+            "description": "Optimizes the Mail app for better performance.",
+            "action": "speed_up_mail"
+        },
+        {
+            "name": "Reindex Spotlight",
+            "description": "Rebuilds the Spotlight index to improve search performance.",
+            "action": "reindex_spotlight"
+        },
+        {
+            "name": "Repair Disk Permissions",
+            "description": "Fixes disk permission issues to ensure system stability.",
+            "action": "repair_disk_permissions"
+        },
+        {
+            "name": "Time Machine Snapshot Thinning",
+            "description": "Reduces the size of Time Machine snapshots to free up space.",
+            "action": "time_machine_snapshot_thinning"
+        },
+        {
+            "name": "Run Maintenance Tasks",
+            "description": "Executes the selected maintenance tasks.",
+            "action": "run_maintenance_tasks"
+        }
+    ]
+}

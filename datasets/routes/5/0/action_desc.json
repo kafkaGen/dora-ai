@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_start_smart_scan",
+            "description": "Initiates a comprehensive scan of the Mac to clean system junk, detect malware, and optimize performance.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "5_1"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "state_id": "1_6",
+    "state_name": "Smart Scan Results",
+    "state_description": "This screen displays the results of a Smart Scan, showing the amount of junk removed, security status, and performance tasks completed. It provides options to view logs and share results.",
+    "done": "Smart Scan completed with junk removed, no threats found, and performance tasks completed.",
+    "screenshot_path": null,
+    "tags": [
+        "Smart Scan",
+        "Results",
+        "Cleanup",
+        "Security",
+        "Performance"
+    ],
+    "enables": [
+        {
+            "name": "View Log",
+            "description": "Opens the log to view detailed information about the scan results.",
+            "action": "click_view_log"
+        },
+        {
+            "name": "Share Results",
+            "description": "Allows the user to share the scan results with others.",
+            "action": "click_share_results"
+        },
+        {
+            "name": "Start Over",
+            "description": "Initiates a new Smart Scan process from the beginning.",
+            "action": "click_start_over"
+        }
+    ]
+}

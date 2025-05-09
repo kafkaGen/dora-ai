@@ -1,0 +1,29 @@
+{
+    "state_id": "8_2",
+    "state_name": "Maintenance Task Confirmation",
+    "state_description": "This screen prompts the user to quit certain applications to proceed with maintenance tasks. It lists applications that need to be closed to clean related items effectively.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "maintenance",
+        "application management",
+        "system optimization"
+    ],
+    "enables": [
+        {
+            "name": "Quit Mail",
+            "description": "Closes the Mail application to proceed with cleaning related items.",
+            "action": "quit_mail"
+        },
+        {
+            "name": "Ignore",
+            "description": "Ignores the prompt and continues without quitting the listed applications.",
+            "action": "ignore_quit_prompt"
+        },
+        {
+            "name": "Quit All",
+            "description": "Closes all listed applications to proceed with cleaning related items.",
+            "action": "quit_all_applications"
+        }
+    ]
+}

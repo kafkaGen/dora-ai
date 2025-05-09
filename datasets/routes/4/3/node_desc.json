@@ -1,0 +1,35 @@
+{
+    "state_id": "4_3",
+    "state_name": "Trash Bins Cleanup Complete",
+    "state_description": "This screen indicates that the cleanup of trash bins is complete. It shows the amount of space cleaned and the remaining free space on the startup disk. Users can share the results or explore additional options to free up more space.",
+    "done": "3.6 MB cleaned from Trash Bins",
+    "screenshot_path": null,
+    "tags": [
+        "cleanup",
+        "trash bins",
+        "disk space",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Share Results",
+            "description": "Allows the user to share the cleanup results with others.",
+            "action": "click_share_results"
+        },
+        {
+            "name": "Try Get Rid of Duplicate Files",
+            "description": "Prompts the user to try Gemini to delete duplicate files and free up more space.",
+            "action": "click_try_now"
+        },
+        {
+            "name": "View Log",
+            "description": "Opens the log to view detailed information about the cleanup process.",
+            "action": "click_view_log"
+        },
+        {
+            "name": "Start Over",
+            "description": "Restarts the cleanup process from the beginning.",
+            "action": "click_start_over"
+        }
+    ]
+}

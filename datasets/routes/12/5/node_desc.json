@@ -1,0 +1,29 @@
+{
+    "state_id": "12_5",
+    "state_name": "Cleanup Complete Screen",
+    "state_description": "This screen indicates that the cleanup process is complete, showing the amount of space cleaned and offering options to review remaining items or share results. It also suggests an additional action to remove duplicate files.",
+    "done": "618.5 MB cleaned",
+    "screenshot_path": null,
+    "tags": [
+        "cleanup",
+        "space management",
+        "system optimization"
+    ],
+    "enables": [
+        {
+            "name": "Review Remaining Items",
+            "description": "Opens a detailed view of items that were not cleaned, allowing the user to manually review and decide on further actions.",
+            "action": "click_review_remaining_items"
+        },
+        {
+            "name": "Share Results",
+            "description": "Allows the user to share the cleanup results with others.",
+            "action": "click_share_results"
+        },
+        {
+            "name": "Get Rid of Duplicate Files",
+            "description": "Initiates a process to find and delete duplicate files using Gemini to free up more space.",
+            "action": "click_try_now_duplicate_files"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "uninstall_application",
+            "description": "Uninstall the selected application from the Mac.",
+            "trigger_type": "left_click",
+            "state_id": "9_1",
+            "state_id_2": "9_2"
+        }
+    ]
+}

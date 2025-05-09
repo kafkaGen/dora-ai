@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_shredder",
+            "description": "Navigate to the Shredder module to securely delete sensitive data.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "14_1"
+        }
+    ]
+}

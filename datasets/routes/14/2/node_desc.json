@@ -1,0 +1,24 @@
+{
+    "state_id": "14_2",
+    "state_name": "File Selection Screen",
+    "state_description": "This screen allows users to select files or folders for cleaning or management within the CleanMyMac X application. The user can navigate through their file system to choose specific items to act upon.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "file selection",
+        "navigation",
+        "cleaning"
+    ],
+    "enables": [
+        {
+            "name": "Open",
+            "description": "Opens the selected folder or file for further actions such as cleaning or management.",
+            "action": "click_open_button"
+        },
+        {
+            "name": "Cancel",
+            "description": "Cancels the file selection process and returns to the previous screen.",
+            "action": "click_cancel_button"
+        }
+    ]
+}

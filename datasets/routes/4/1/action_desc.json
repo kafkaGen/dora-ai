@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_scan_button",
+            "description": "Initiates the process to scan and empty all Trash Bins on the Mac.",
+            "trigger_type": "left_click",
+            "state_id": "4_1",
+            "state_id_2": "4_2"
+        }
+    ]
+}

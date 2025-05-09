@@ -1,0 +1,20 @@
+{
+    "state_id": "6_1",
+    "state_name": "Privacy Screen",
+    "state_description": "This screen allows users to manage their privacy by removing browsing history and chat data from applications like Skype and other messengers.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "privacy",
+        "browsing history",
+        "chat data",
+        "cleanup"
+    ],
+    "enables": [
+        {
+            "name": "Scan",
+            "description": "Initiates the process to remove browsing traces and sweep up chat data.",
+            "action": "click_scan_button"
+        }
+    ]
+}

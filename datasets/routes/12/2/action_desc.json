@@ -1,0 +1,53 @@
+{
+    "state_transitions": [
+        {
+            "action": "select_folder",
+            "description": "Select a folder to view its contents and details.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        },
+        {
+            "action": "remove_files",
+            "description": "Remove selected files or folders to free up space.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        },
+        {
+            "action": "navigate_back",
+            "description": "Go back to the previous screen or view.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        },
+        {
+            "action": "access_assistant",
+            "description": "Open the Assistant for help or additional options.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        },
+        {
+            "action": "click_remove_button",
+            "description": "Remove the selected items to free up disk space.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        },
+        {
+            "action": "click_review_selected_button",
+            "description": "Review the details of the selected items before taking any action.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        },
+        {
+            "action": "navigate_directories",
+            "description": "Navigate through different directories to explore disk usage.",
+            "trigger_type": "left_click",
+            "state_id": "12_2",
+            "state_id_2": "12_3"
+        }
+    ]
+}

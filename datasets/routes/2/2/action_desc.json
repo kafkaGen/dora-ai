@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_clean",
+            "description": "Initiate the cleaning process to remove the identified system junk files.",
+            "trigger_type": "left_click",
+            "state_id": "2_2",
+            "state_id_2": "2_3"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "state_id": "12_2",
+    "state_name": "Space Lens View",
+    "state_description": "This screen provides a visual representation of disk space usage on the Macintosh HD. It allows users to explore different folders and their sizes, helping to identify large files and folders that may be taking up significant space.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "disk space",
+        "visualization",
+        "file management"
+    ],
+    "enables": [
+        {
+            "name": "Select Folder",
+            "description": "Select a folder to view its contents and details.",
+            "action": "select_folder"
+        },
+        {
+            "name": "Remove Files",
+            "description": "Remove selected files or folders to free up space.",
+            "action": "remove_files"
+        },
+        {
+            "name": "Navigate Back",
+            "description": "Go back to the previous screen or view.",
+            "action": "navigate_back"
+        },
+        {
+            "name": "Access Assistant",
+            "description": "Open the Assistant for help or additional options.",
+            "action": "access_assistant"
+        }
+    ]
+}

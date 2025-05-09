@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_scan_button",
+            "description": "Initiates a malware scan to detect and remove threats from the Mac.",
+            "trigger_type": "left_click",
+            "state_id": "5_1",
+            "state_id_2": "5_2"
+        }
+    ]
+}

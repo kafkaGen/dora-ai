@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_trash_bins",
+            "description": "Navigate to the Trash Bins cleaning module.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "4_1"
+        }
+    ]
+}

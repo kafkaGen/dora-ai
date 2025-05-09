@@ -159,4 +159,3 @@ Privacy Policy https://macpaw.com/cleanmymac-privacy-policy
 Mac is a trademark of Apple Inc.
 
 iTunes is a trademark of Apple Inc.
-

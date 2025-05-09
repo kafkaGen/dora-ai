@@ -1,0 +1,39 @@
+{
+    "state_id": "2_3",
+    "state_name": "System Junk Cleanup Prompt",
+    "state_description": "This screen prompts the user to quit certain applications to clean related system junk effectively. It lists applications that should be closed and provides options to quit them individually or all at once.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "cleanup",
+        "system junk",
+        "application management"
+    ],
+    "enables": [
+        {
+            "name": "Quit Code",
+            "description": "Quit the 'Code' application to proceed with cleaning its related items.",
+            "action": "quit_code"
+        },
+        {
+            "name": "Quit Claude",
+            "description": "Quit the 'Claude' application to proceed with cleaning its related items.",
+            "action": "quit_claude"
+        },
+        {
+            "name": "Quit Safari",
+            "description": "Quit the 'Safari' application to proceed with cleaning its related items.",
+            "action": "quit_safari"
+        },
+        {
+            "name": "Ignore",
+            "description": "Ignore the prompt and proceed without quitting the applications.",
+            "action": "ignore_quit_prompt"
+        },
+        {
+            "name": "Quit All",
+            "description": "Quit all listed applications to proceed with cleaning their related items.",
+            "action": "quit_all"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_system_junk",
+            "description": "Navigate to the System Junk module to clean unnecessary system files.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "2_1"
+        }
+    ]
+}

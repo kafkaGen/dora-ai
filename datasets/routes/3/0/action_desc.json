@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_mail_attachments",
+            "description": "Navigate to the Mail Attachments module to manage and remove local copies of email downloads and attachments.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "3_1"
+        }
+    ]
+}

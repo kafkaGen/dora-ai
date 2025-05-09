@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_select_files_button",
+            "description": "Opens a file selection dialog to choose files and folders for secure deletion.",
+            "trigger_type": "left_click",
+            "state_id": "14_1",
+            "state_id_2": "14_2"
+        }
+    ]
+}

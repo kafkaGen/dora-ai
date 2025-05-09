@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_space_lens",
+            "description": "Navigates to the Space Lens feature to manage disk space usage visually.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "12_1"
+        }
+    ]
+}

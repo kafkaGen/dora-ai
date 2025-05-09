@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_scan_button",
+            "description": "Initiates the scanning process to analyze disk space usage and provide a visual representation of file sizes.",
+            "trigger_type": "left_click",
+            "state_id": "12_1",
+            "state_id_2": "12_2"
+        }
+    ]
+}

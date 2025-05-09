@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "complete_smart_scan",
+            "description": "Completes the Smart Scan process, transitioning from the scan in progress to displaying the results.",
+            "trigger_type": "automatic",
+            "state_id": "1_2",
+            "state_id_2": "1_3"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "state_id": "11_1",
+    "state_name": "Extensions Management Screen",
+    "state_description": "This screen allows users to manage system extensions, including widgets, plugins, and dictionaries. Users can remove or disable extensions as needed.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "extensions",
+        "management",
+        "system",
+        "plugins"
+    ],
+    "enables": [
+        {
+            "name": "View Extensions",
+            "description": "Opens a detailed view where users can see all installed extensions and manage them.",
+            "action": "click_view_extensions"
+        }
+    ]
+}

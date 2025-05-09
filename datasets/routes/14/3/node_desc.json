@@ -1,0 +1,19 @@
+{
+    "state_id": "14_3",
+    "state_name": "Shredder Warning",
+    "state_description": "This screen displays a warning message when the user attempts to add files to the Shredder that cannot be safely deleted. It informs the user that removing these files may damage the system.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "warning",
+        "file management",
+        "system protection"
+    ],
+    "enables": [
+        {
+            "name": "Acknowledge Warning",
+            "description": "Closes the warning dialog and returns to the previous screen without adding the files to the Shredder.",
+            "action": "click_ok_button"
+        }
+    ]
+}

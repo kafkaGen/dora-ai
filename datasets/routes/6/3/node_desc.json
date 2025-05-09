@@ -1,0 +1,80 @@
+{
+    "state_id": "6_3",
+    "state_name": "Privacy Management Screen",
+    "state_description": "This screen allows users to manage application permissions related to privacy on their Mac. Users can view and control permissions for various system features and applications, ensuring their privacy is maintained.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "Privacy",
+        "Permissions",
+        "Security",
+        "Mac"
+    ],
+    "enables": [
+        {
+            "name": "Manage Application Permissions",
+            "description": "View and adjust permissions for applications accessing system features.",
+            "action": "manage_application_permissions"
+        },
+        {
+            "name": "View Recent Items Lists",
+            "description": "Access and manage the list of recent items used by applications.",
+            "action": "view_recent_items_lists"
+        },
+        {
+            "name": "Manage Safari Permissions",
+            "description": "View and control permissions specific to Safari.",
+            "action": "manage_safari_permissions"
+        },
+        {
+            "name": "Manage Wi-Fi Networks",
+            "description": "View and manage permissions related to Wi-Fi networks.",
+            "action": "manage_wifi_networks"
+        },
+        {
+            "name": "Adjust Accessibility Permissions",
+            "description": "View and modify accessibility permissions for applications.",
+            "action": "adjust_accessibility_permissions"
+        },
+        {
+            "name": "Adjust Automation Permissions",
+            "description": "View and modify automation permissions for applications.",
+            "action": "adjust_automation_permissions"
+        },
+        {
+            "name": "Adjust Camera Permissions",
+            "description": "View and modify camera access permissions for applications.",
+            "action": "adjust_camera_permissions"
+        },
+        {
+            "name": "Adjust Desktop Folder Permissions",
+            "description": "View and modify permissions for accessing the desktop folder.",
+            "action": "adjust_desktop_folder_permissions"
+        },
+        {
+            "name": "Adjust Documents Folder Permissions",
+            "description": "View and modify permissions for accessing the documents folder.",
+            "action": "adjust_documents_folder_permissions"
+        },
+        {
+            "name": "Adjust Downloads Folder Permissions",
+            "description": "View and modify permissions for accessing the downloads folder.",
+            "action": "adjust_downloads_folder_permissions"
+        },
+        {
+            "name": "Adjust Full Disk Access Permissions",
+            "description": "View and modify full disk access permissions for applications.",
+            "action": "adjust_full_disk_access_permissions"
+        },
+        {
+            "name": "Adjust Input Monitoring Permissions",
+            "description": "View and modify input monitoring permissions for applications.",
+            "action": "adjust_input_monitoring_permissions"
+        },
+        {
+            "name": "Adjust Microphone Permissions",
+            "description": "View and modify microphone access permissions for applications.",
+            "action": "adjust_microphone_permissions"
+        }
+    ]
+}

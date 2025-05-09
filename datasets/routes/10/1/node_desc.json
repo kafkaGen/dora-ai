@@ -1,0 +1,79 @@
+{
+    "state_id": "10_1",
+    "state_name": "Updater Screen",
+    "state_description": "This screen informs the user that all software on their Mac is up to date. It is part of the application management module, specifically focusing on updating applications.",
+    "done": "All Mac software is updated to the latest versions available.",
+    "screenshot_path": null,
+    "tags": [
+        "Updater",
+        "Software Management",
+        "Application Management"
+    ],
+    "enables": [
+        {
+            "name": "Navigate to Smart Scan",
+            "description": "Go to the Smart Scan module for a quick checkup of your Mac.",
+            "action": "navigate_smart_scan"
+        },
+        {
+            "name": "Navigate to System Junk",
+            "description": "Go to the System Junk module to clean unnecessary files.",
+            "action": "navigate_system_junk"
+        },
+        {
+            "name": "Navigate to Mail Attachments",
+            "description": "Go to the Mail Attachments module to manage email attachments.",
+            "action": "navigate_mail_attachments"
+        },
+        {
+            "name": "Navigate to Trash Bins",
+            "description": "Go to the Trash Bins module to empty trash bins.",
+            "action": "navigate_trash_bins"
+        },
+        {
+            "name": "Navigate to Malware Removal",
+            "description": "Go to the Malware Removal module to check for malware.",
+            "action": "navigate_malware_removal"
+        },
+        {
+            "name": "Navigate to Privacy",
+            "description": "Go to the Privacy module to manage privacy settings.",
+            "action": "navigate_privacy"
+        },
+        {
+            "name": "Navigate to Optimization",
+            "description": "Go to the Optimization module to optimize Mac performance.",
+            "action": "navigate_optimization"
+        },
+        {
+            "name": "Navigate to Maintenance",
+            "description": "Go to the Maintenance module for system maintenance tasks.",
+            "action": "navigate_maintenance"
+        },
+        {
+            "name": "Navigate to Uninstaller",
+            "description": "Go to the Uninstaller module to uninstall applications.",
+            "action": "navigate_uninstaller"
+        },
+        {
+            "name": "Navigate to Extensions",
+            "description": "Go to the Extensions module to manage browser extensions.",
+            "action": "navigate_extensions"
+        },
+        {
+            "name": "Navigate to Space Lens",
+            "description": "Go to the Space Lens module to analyze disk space usage.",
+            "action": "navigate_space_lens"
+        },
+        {
+            "name": "Navigate to Large & Old Files",
+            "description": "Go to the Large & Old Files module to find and manage large files.",
+            "action": "navigate_large_old_files"
+        },
+        {
+            "name": "Navigate to Shredder",
+            "description": "Go to the Shredder module to securely delete files.",
+            "action": "navigate_shredder"
+        }
+    ]
+}

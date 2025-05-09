@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_large_old_files",
+            "description": "Navigate to the Large & Old Files module to identify and manage large and old files.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "13_1"
+        }
+    ]
+}

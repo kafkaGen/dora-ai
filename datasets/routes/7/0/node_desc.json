@@ -1,0 +1,35 @@
+{
+    "state_id": "1_1",
+    "state_name": "Welcome Screen",
+    "state_description": "Initial screen of CleanMyMac X where users can start a Smart Scan to clean, optimize, and protect their Mac.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "cleaning",
+        "optimization",
+        "malware protection",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Start Smart Scan",
+            "description": "Initiates the Smart Scan process to clean system junk, detect malware, and optimize performance.",
+            "action": "click_start_smart_scan"
+        },
+        {
+            "name": "Access System Junk",
+            "description": "Navigate to the System Junk module for cleaning unnecessary files.",
+            "action": "navigate_system_junk"
+        },
+        {
+            "name": "Access Malware Removal",
+            "description": "Navigate to the Malware Removal module to check for threats.",
+            "action": "navigate_malware_removal"
+        },
+        {
+            "name": "Access Uninstaller",
+            "description": "Navigate to the Uninstaller module to remove applications.",
+            "action": "navigate_uninstaller"
+        }
+    ]
+}

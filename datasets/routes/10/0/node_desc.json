@@ -1,0 +1,85 @@
+{
+    "state_id": "1_1",
+    "state_name": "Welcome Screen",
+    "state_description": "The initial screen of CleanMyMac X where users can start a Smart Scan to clean, optimize, and protect their Mac.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "cleaning",
+        "optimization",
+        "malware protection",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Start Smart Scan",
+            "description": "Initiates a comprehensive scan of the Mac to clean system junk, detect malware, and optimize performance.",
+            "action": "click_start_smart_scan"
+        },
+        {
+            "name": "Access System Junk",
+            "description": "Navigate to the System Junk cleaning module.",
+            "action": "navigate_system_junk"
+        },
+        {
+            "name": "Access Mail Attachments",
+            "description": "Navigate to the Mail Attachments cleaning module.",
+            "action": "navigate_mail_attachments"
+        },
+        {
+            "name": "Access Trash Bins",
+            "description": "Navigate to the Trash Bins cleaning module.",
+            "action": "navigate_trash_bins"
+        },
+        {
+            "name": "Access Malware Removal",
+            "description": "Navigate to the Malware Removal module.",
+            "action": "navigate_malware_removal"
+        },
+        {
+            "name": "Access Privacy",
+            "description": "Navigate to the Privacy protection module.",
+            "action": "navigate_privacy"
+        },
+        {
+            "name": "Access Optimization",
+            "description": "Navigate to the Optimization module.",
+            "action": "navigate_optimization"
+        },
+        {
+            "name": "Access Maintenance",
+            "description": "Navigate to the Maintenance module.",
+            "action": "navigate_maintenance"
+        },
+        {
+            "name": "Access Uninstaller",
+            "description": "Navigate to the Uninstaller module for removing applications.",
+            "action": "navigate_uninstaller"
+        },
+        {
+            "name": "Access Updater",
+            "description": "Navigate to the Updater module for updating applications.",
+            "action": "navigate_updater"
+        },
+        {
+            "name": "Access Extensions",
+            "description": "Navigate to the Extensions module for managing extensions.",
+            "action": "navigate_extensions"
+        },
+        {
+            "name": "Access Space Lens",
+            "description": "Navigate to the Space Lens module for visualizing disk space usage.",
+            "action": "navigate_space_lens"
+        },
+        {
+            "name": "Access Large & Old Files",
+            "description": "Navigate to the Large & Old Files module for identifying large and old files.",
+            "action": "navigate_large_old_files"
+        },
+        {
+            "name": "Access Shredder",
+            "description": "Navigate to the Shredder module for securely deleting files.",
+            "action": "navigate_shredder"
+        }
+    ]
+}

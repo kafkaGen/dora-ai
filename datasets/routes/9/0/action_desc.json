@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_to_uninstaller",
+            "description": "Navigate to the Uninstaller screen to manage installed applications.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "9_1"
+        }
+    ]
+}

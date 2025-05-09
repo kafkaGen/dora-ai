@@ -1,0 +1,40 @@
+{
+    "state_id": "11_2",
+    "state_name": "Extensions Management",
+    "state_description": "This screen allows users to manage various types of extensions on their Mac, such as Spotlight Plugins, Safari Extensions, Preference Panes, and Internet Plugins. The current view shows that there are no Spotlight Plugins to clean or fix.",
+    "done": "Checked Spotlight Plugins for issues or items to clean.",
+    "screenshot_path": null,
+    "tags": [
+        "extensions",
+        "management",
+        "cleaning",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Back",
+            "description": "Navigate back to the previous screen.",
+            "action": "navigate_back"
+        },
+        {
+            "name": "Select Safari Extensions",
+            "description": "View and manage Safari Extensions.",
+            "action": "select_safari_extensions"
+        },
+        {
+            "name": "Select Preference Panes",
+            "description": "View and manage Preference Panes.",
+            "action": "select_preference_panes"
+        },
+        {
+            "name": "Select Internet Plugins",
+            "description": "View and manage Internet Plugins.",
+            "action": "select_internet_plugins"
+        },
+        {
+            "name": "Use Assistant",
+            "description": "Access the Assistant feature for help or guidance.",
+            "action": "use_assistant"
+        }
+    ]
+}

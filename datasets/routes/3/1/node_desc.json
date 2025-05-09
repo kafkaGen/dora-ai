@@ -1,0 +1,19 @@
+{
+    "state_id": "3_1",
+    "state_name": "Mail Attachments Screen",
+    "state_description": "This screen allows users to remove local copies of email downloads and attachments to save disk space and optimize mail data.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "Mail Attachments",
+        "Disk Space",
+        "Optimization"
+    ],
+    "enables": [
+        {
+            "name": "Scan",
+            "description": "Initiates the process to scan and identify mail attachments that can be removed to free up space.",
+            "action": "click_scan_button"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "state_id": "13_2",
+    "state_name": "Large & Old Files",
+    "state_description": "This screen allows users to view and manage large and old files on their Mac. Users can select files to remove in order to free up disk space.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "file management",
+        "disk cleanup",
+        "large files",
+        "old files"
+    ],
+    "enables": [
+        {
+            "name": "Select File",
+            "description": "Select a file from the list to perform actions on it.",
+            "action": "select_file"
+        },
+        {
+            "name": "Remove Immediately",
+            "description": "Remove the selected files immediately to free up space.",
+            "action": "remove_immediately"
+        },
+        {
+            "name": "Sort by Size",
+            "description": "Sort the list of files by size to easily identify the largest files.",
+            "action": "sort_by_size"
+        },
+        {
+            "name": "Search Files",
+            "description": "Search for specific files using the search bar.",
+            "action": "search_files"
+        },
+        {
+            "name": "Back",
+            "description": "Navigate back to the previous screen.",
+            "action": "navigate_back"
+        }
+    ]
+}

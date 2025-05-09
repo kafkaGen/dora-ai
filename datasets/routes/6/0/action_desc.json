@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_privacy",
+            "description": "Navigate to the Privacy module to manage and erase traces of online activity.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "6_1"
+        }
+    ]
+}

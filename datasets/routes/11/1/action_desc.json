@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_view_extensions",
+            "description": "Opens a detailed view where users can see all installed extensions and manage them.",
+            "trigger_type": "left_click",
+            "state_id": "11_1",
+            "state_id_2": "11_2"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "state_transitions": [
+        {
+            "action": "quit_claude",
+            "description": "Quits the application named Claude to proceed with cleaning.",
+            "trigger_type": "left_click",
+            "state_id": "1_4",
+            "state_id_2": "1_5"
+        },
+        {
+            "action": "quit_code",
+            "description": "Quits the application named Code to proceed with cleaning.",
+            "trigger_type": "left_click",
+            "state_id": "1_4",
+            "state_id_2": "1_5"
+        },
+        {
+            "action": "quit_safari",
+            "description": "Quits the application named Safari to proceed with cleaning.",
+            "trigger_type": "left_click",
+            "state_id": "1_4",
+            "state_id_2": "1_5"
+        },
+        {
+            "action": "quit_all",
+            "description": "Quits all listed applications to proceed with cleaning.",
+            "trigger_type": "left_click",
+            "state_id": "1_4",
+            "state_id_2": "1_5"
+        },
+        {
+            "action": "ignore_quit_prompt",
+            "description": "Ignores the prompt and continues without quitting any applications.",
+            "trigger_type": "left_click",
+            "state_id": "1_4",
+            "state_id_2": "1_5"
+        }
+    ]
+}

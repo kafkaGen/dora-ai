@@ -1,0 +1,30 @@
+{
+    "state_id": "7_1",
+    "state_name": "Optimization Screen",
+    "state_description": "This screen allows users to manage and optimize their Mac's performance by controlling launch agents and login items.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "optimization",
+        "performance",
+        "macOS",
+        "system management"
+    ],
+    "enables": [
+        {
+            "name": "Manage Launch Agents",
+            "description": "Stay in charge of the supporting applications on your Mac.",
+            "action": "manage_launch_agents"
+        },
+        {
+            "name": "Take Control of Login Items",
+            "description": "Manage all of your login items to run only what you truly need.",
+            "action": "control_login_items"
+        },
+        {
+            "name": "View All Items",
+            "description": "View all 11 items related to optimization.",
+            "action": "view_all_items"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "navigate_extensions",
+            "description": "Navigate to the Extensions module to manage browser and system extensions.",
+            "trigger_type": "left_click",
+            "state_id": "1_1",
+            "state_id_2": "11_1"
+        }
+    ]
+}

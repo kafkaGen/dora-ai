@@ -1,0 +1,19 @@
+{
+    "state_id": "3_2",
+    "state_name": "Mail Attachments Scan Completed",
+    "state_description": "This screen indicates that the scan for mail attachments has been completed. It provides information about the cleanliness of the mail and offers an option to review details of the items found.",
+    "done": "Mail attachments scan completed",
+    "screenshot_path": null,
+    "tags": [
+        "scan",
+        "mail attachments",
+        "cleaning"
+    ],
+    "enables": [
+        {
+            "name": "Review Details",
+            "description": "Opens a detailed view of the items found during the scan for further review and cleaning.",
+            "action": "click_review_details"
+        }
+    ]
+}

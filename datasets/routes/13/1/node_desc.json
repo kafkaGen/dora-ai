@@ -1,0 +1,19 @@
+{
+    "state_id": "13_1",
+    "state_name": "Large & Old Files",
+    "state_description": "This screen allows users to locate and remove large files and folders that have not been opened for months. It helps in identifying forgotten items and provides filters to review and remove unneeded files quickly.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "file management",
+        "disk cleanup",
+        "performance optimization"
+    ],
+    "enables": [
+        {
+            "name": "Scan",
+            "description": "Initiates the scanning process to find large and old files on the selected drive.",
+            "action": "click_scan_button"
+        }
+    ]
+}

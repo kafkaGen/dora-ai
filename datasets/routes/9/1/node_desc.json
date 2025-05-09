@@ -1,0 +1,34 @@
+{
+    "state_id": "9_1",
+    "state_name": "Uninstaller Screen",
+    "state_description": "This screen allows users to view and manage all installed applications on their Mac. Users can select applications to uninstall, view application sizes, and sort applications by name.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "uninstaller",
+        "application management",
+        "macOS"
+    ],
+    "enables": [
+        {
+            "name": "Select Application",
+            "description": "Select an application to view more details or prepare for uninstallation.",
+            "action": "select_application"
+        },
+        {
+            "name": "Sort Applications",
+            "description": "Sort the list of applications by name or size.",
+            "action": "sort_applications"
+        },
+        {
+            "name": "Search Applications",
+            "description": "Search for a specific application using the search bar.",
+            "action": "search_applications"
+        },
+        {
+            "name": "Uninstall Application",
+            "description": "Uninstall the selected application from the Mac.",
+            "action": "uninstall_application"
+        }
+    ]
+}

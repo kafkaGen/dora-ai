@@ -1,0 +1,11 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_remove_button",
+            "description": "Permanently deletes the selected files from the system.",
+            "trigger_type": "left_click",
+            "state_id": "12_4",
+            "state_id_2": "12_5"
+        }
+    ]
+}

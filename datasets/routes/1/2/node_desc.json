@@ -1,0 +1,25 @@
+{
+    "state_id": "1_2",
+    "state_name": "Smart Scan Screen",
+    "state_description": "This screen is part of the Smart Scan feature in CleanMyMac X. It provides an overview of the system cleaning process, including cleanup of junk files, malware protection, and performance optimization. The scan is currently in progress.",
+    "done": null,
+    "screenshot_path": null,
+    "tags": [
+        "Smart Scan",
+        "Cleanup",
+        "Malware Protection",
+        "Performance Optimization"
+    ],
+    "enables": [
+        {
+            "name": "Review Details",
+            "description": "View detailed information about the cleanup process and the files identified for removal.",
+            "action": "click_review_details"
+        },
+        {
+            "name": "Stop",
+            "description": "Stop the ongoing Smart Scan process.",
+            "action": "click_stop"
+        }
+    ]
+}

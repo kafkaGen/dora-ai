@@ -1,0 +1,18 @@
+{
+    "state_transitions": [
+        {
+            "action": "click_remove_button",
+            "description": "Remove the selected items to free up disk space.",
+            "trigger_type": "left_click",
+            "state_id": "12_3",
+            "state_id_2": "12_4"
+        },
+        {
+            "action": "click_review_selected_button",
+            "description": "Review the details of the selected items before taking any action.",
+            "trigger_type": "left_click",
+            "state_id": "12_3",
+            "state_id_2": "12_4"
+        }
+    ]
+}
