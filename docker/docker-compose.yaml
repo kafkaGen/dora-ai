@@ -3,11 +3,15 @@ volumes:
   neo4j_logs:
   neo4j_plugins:
 
-networks:
-  frontend_network:
-    driver: bridge
-  backend_network:
-    driver: bridge
+configs:
+  qdrant_config:
+    content: |
+      log_level: INFO  
+      enable_tls: false  # Set to true if using HTTPS
+      service:
+        http_port: ${QDRANT_PORT}
+      storage:
+        storage_path: "/qdrant/storage"
 
 services:
 
@@ -15,8 +19,6 @@ services:
     image: neo4j:5.26.2-ubi9
     container_name: neo4j
     restart: unless-stopped
-    networks:
-      - backend_network
     ports:
       - ${NEO4J_GUI_PORT}:${NEO4J_GUI_PORT}
       - ${NEO4J_PORT}:${NEO4J_PORT}
@@ -33,3 +35,17 @@ services:
       - neo4j_data:/data
       - neo4j_logs:/logs
       - neo4j_plugins:/plugins
+
+  qdrant:
+    image: qdrant/qdrant:v1.13.4
+    container_name: qdrant
+    restart: unless-stopped
+    env_file:
+      - ../.env
+    ports:
+      - ${QDRANT_PORT}:${QDRANT_PORT}
+    configs:
+      - source: qdrant_config
+        target: /qdrant/config/production.yaml
+    volumes:
+      - ../help/qdrant/storage:/qdrant/storage

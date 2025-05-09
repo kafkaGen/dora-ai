@@ -22,6 +22,7 @@ langchain-openai = "^0.3.16"
 pydantic = "^2.11.4"
 rich = "^14.0.0"
 neo4j = "^5.28.1"
+qdrant-client = "^1.14.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
