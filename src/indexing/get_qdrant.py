@@ -32,6 +32,8 @@ def process_all():
         \nState Description: {node['state_description']}.
         \nState Tags: {node['tags']}.
         """
+        if len(node.get("done", "")) > 10:
+            chunk += f"\nState Done: {node['done']}"
         node["chunk"] = chunk
         embedding = embed(chunk)
         qdrant.upsert(

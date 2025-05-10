@@ -38,6 +38,15 @@ Trusted by over 29 million users and endorsed by Apple, CleanMyMac X stands out 
 
 ### Answer
 """
+CORRECT_PROMPT = """
+Your goal is to define the user intent and validate if the user query is related to the application navigation.
+Mostly query is should be about using computer or some application on the computer. Reject only directly unrelated queries.
+
+### User Query
+{user_input}
+
+### Answer
+"""
 MODEL = "openai:gpt-4o"
 
 
@@ -59,9 +68,25 @@ class LLMResponse(BaseModel):
     )
 
 
+class InputCorrectness(BaseModel):
+    """
+    Validate user input to be related to the application navigation on the computer.
+    """
+
+    is_correct: bool = Field(description="Boolean value indicating whether the user query is on valid topic.")
+
+
 def is_query_correct(user_input: str) -> bool:
-    # TODO
-    return True
+    system_message = SystemMessagePromptTemplate.from_template(CORRECT_PROMPT)
+    chat_prompt = ChatPromptTemplate.from_messages(
+        [
+            system_message,
+        ]
+    ).format_messages(user_input=user_input)
+
+    chat_model = init_chat_model(MODEL, temperature=0.2).with_structured_output(InputCorrectness)
+    result = chat_model.invoke(chat_prompt)
+    return result.is_correct
 
 
 def get_llm_response(user_input: str, graph_path: str) -> LLMResponse:
@@ -71,8 +96,8 @@ def get_llm_response(user_input: str, graph_path: str) -> LLMResponse:
             system_message,
         ]
     ).format_messages(user_input=user_input, graph_path=graph_path)
-    for message in chat_prompt:
-        print(message.content)
+    # for message in chat_prompt:
+    #     print(message.content)
 
     chat_model = init_chat_model(MODEL, temperature=0.2).with_structured_output(LLMResponse)
 
@@ -91,7 +116,7 @@ def query(user_input: str) -> str:
     target_state = get_target_node(user_input)
     graph_path = find_nearest_graph_path(driver, target_state)
     response = get_llm_response(user_input, graph_path)
-    print(response.answer)
+    # print(response.answer)
 
     return response.answer
 
@@ -103,5 +128,4 @@ if __name__ == "__main__":
 
     response = query(args.user_input)
 
-    print("\n\n####")
     sys.exit(response)
